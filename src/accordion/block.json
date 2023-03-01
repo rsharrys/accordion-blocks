@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wafelmedia/accordion",
+	"version": "0.1.0",
+	"title": "Accordion",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Accordion",
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"textdomain": "wafelmedia-accordion",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"script": "file:./accordion.js"
+}

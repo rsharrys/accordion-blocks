@@ -1,0 +1,36 @@
+.wp-block-wafelmedia-accordion-item {
+	button {
+		cursor: pointer;
+		padding: 0;
+		width: 100%;
+		text-align: left;
+		border: none;
+		transition: 0.4s;
+		margin: 0.25rem 0;
+		font-size: inherit;
+		font-family: inherit;
+		color: unset;
+		background-color: unset;
+	}
+	button:hover {
+		opacity: 0.7;
+	}
+
+	.accordion-panel {
+		opacity: 0;
+		height: 0;
+		margin: 0;
+		padding: 0.5rem;
+	}
+
+	&.active .accordion-panel {
+		opacity: 1;
+		height: unset;
+		transition: all 0.5s ease-in-out;
+	}
+
+	.accordion-header {
+		margin: 0;
+		padding: 0.5rem;
+	}
+}
